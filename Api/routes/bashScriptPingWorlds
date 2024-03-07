@@ -1,0 +1,14 @@
+
+const { exec } = require('child_process');
+
+app.get('/runbashscript', (req, res) => {
+  exec('C:/Users/espen/Desktop/Click or no balls.tnt.bat', (error, stdout, stderr) => {
+    if (error) {
+      console.error(`Error executing Bash script: ${error}`);
+      res.status(500).send('An error occurred');
+    } else {
+      console.log(`Bash script output: ${stdout}`);
+      res.send(stdout);
+    }
+  });
+});
