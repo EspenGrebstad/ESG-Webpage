@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ESG-Webpage/static/css/main.19905cf2.css",
+    "main.js": "/ESG-Webpage/static/js/main.72675851.js",
+    "index.html": "/ESG-Webpage/index.html",
+    "main.19905cf2.css.map": "/ESG-Webpage/static/css/main.19905cf2.css.map",
+    "main.72675851.js.map": "/ESG-Webpage/static/js/main.72675851.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.19905cf2.css",
+    "static/js/main.72675851.js"
+  ]
+}
