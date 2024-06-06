@@ -14,7 +14,7 @@ const SnakeGameWindow = () => {
 
     return (
         
-        <div className='center'>
+        <div>
             <h1>Snake Game</h1>
             <button className='button' onClick={openGameWindow}>Open Game</button>
             {gameOpen}

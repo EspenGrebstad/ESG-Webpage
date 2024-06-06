@@ -5,7 +5,7 @@ import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import Navbar from './Components/Navbar';
 import Home from './Pages/Home';
 import About from './Pages/About';
-import Projects from './Pages/Projects';
+import Projects from './Pages/Projects/Projects';
 
 
 class App extends React.Component {
