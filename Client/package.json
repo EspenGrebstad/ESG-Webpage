@@ -1,4 +1,5 @@
 {
+  "homepage": "https://espengrebstad.github.io/ESG-Webpage/",
   "name": "displaywebsite",
   "version": "0.1.0",
   "private": true,
@@ -19,7 +20,9 @@
     "start": "react-scripts start",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "stop": "(cd frontend && npm stop); (cd backend && npm stop);"
+    "stop": "(cd frontend && npm stop); (cd backend && npm stop);",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
